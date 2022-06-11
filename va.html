@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      // function gang(name){
+      //   return function(a,b,c){
+      //     return("gang"+" "+name)
+      //   }
+      // }
+      // var e=gang("ga","da","ca");
+      // console.log("leela");
+
+
+      // //closeres
+      // let greeting=(function(){
+      //   let message="hello";
+      //   let getmessage=function(){
+      //     return message;
+      //   }
+      //   return{
+      //     getmessage:getmessage
+      //   }
+
+      // })();
+      // console.log(greeting.getmessage());
+
+
+
+    //   function greeting(b,c,d){
+    //     return function e(name1,name2,name3){
+    //       return(greeting+" "+e);
+
+    //     }();
+    //   }
+    //   var a=greeting("good morning","good ofternoon","good night");
+    //  console.log(a(name1="leela"));
+    //  console.log(a(name2="madhu"));
+    //  console.log(a(name3="nikith"));
+
+
+    function greeting(greet1,greet2,greet3){
+        return function(name){
+          console.log(greet1+" "+name);
+          console.log(greet2+" "+name);
+          console.log(greet3+" "+name);
+
+        }
+      }
+      var a=greeting("good morning","good ofternoon","good night");
+     console.log(a("leela"));
+  
+    </script>
+</body>
+</html>
