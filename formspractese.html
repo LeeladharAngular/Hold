@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="">FIRST NAME :</label>
+        <input type="text" required placeholder="PLS ENTER UR FIRST NAME"><br><br>
+        <label for="">LAST NAME:</label>
+        <input type="text"><br><br>
+        <label for="">EMAIL:</label>
+        <input type="text" required placeholder=" ENTER VALIED EMAIL ID"><br><br>
+ 
+        <label for="gen">GENDER :</label>
+        <input type="radio" name="gen">MALE
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">others <br><br>
+        <label for="">QUALIFICATION :</label>
+        <select name="qual" id="qual">
+            <option value="">be</option>
+            <option value="">BTECH</option>
+            <option value="">ME</option>
+            <option value="">MTECH</option>
+            <option value="">mca</option>
+        </select><br><br>
+        <label for="">date of birth</label>
+        <input type="date"><br><br>
+        <label for="place">PLACE :</label>
+        <input list="city">
+        <datalist id="city" name="place">
+        <option value="mangaluru">mangaluru</option>
+        <option value="kerala">kerala</option>
+        <option value="karnataka">karnataka</option>
+        <option value="odisha">odisha</option>
+     </datalist><br><br>
+     <label for="add">address</label>
+     <textarea name="add" id="add" cols="30" rows="10"></textarea>
+ 
+        <center><button>SUBMIT</button></center>
+        
+    </form> 
+</body>
+</html>
